@@ -1,0 +1,25 @@
+[debug] [2019-01-30T14:03:44.794Z] ----------------------------------------------------------------------
+[debug] [2019-01-30T14:03:44.796Z] Command:       /usr/local/Cellar/node/11.6.0/bin/node /usr/local/bin/firebase functions:shell
+[debug] [2019-01-30T14:03:44.796Z] CLI Version:   6.3.0
+[debug] [2019-01-30T14:03:44.796Z] Platform:      darwin
+[debug] [2019-01-30T14:03:44.796Z] Node Version:  v11.6.0
+[debug] [2019-01-30T14:03:44.797Z] Time:          Wed Jan 30 2019 17:03:44 GMT+0300 (Arabian Standard Time)
+[debug] [2019-01-30T14:03:44.797Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-30T14:03:44.803Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-30T14:03:44.804Z] > authorizing via signed-in user
+[debug] [2019-01-30T14:03:44.804Z] [iam] checking project praticeapp-e69b0 for permissions ["firebase.projects.get"]
+[debug] [2019-01-30T14:03:44.805Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/praticeapp-e69b0:testIamPermissions  
+
+[debug] [2019-01-30T14:03:46.282Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-01-30T14:03:47.612Z] Fetching environment
+[debug] [2019-01-30T14:03:47.613Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/praticeapp-e69b0  
+ 
+[debug] [2019-01-30T14:03:49.035Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-30T14:03:49.035Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/408984680621:getServerAppConfig  
+ 
+[debug] [2019-01-30T14:03:49.649Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-30T14:03:49.649Z] Starting @google-cloud/functions-emulator
+[debug] [2019-01-30T14:03:50.913Z] Parsing function triggers
+[info] ✔  functions: addMessage
